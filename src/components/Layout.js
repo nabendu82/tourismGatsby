@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Layout = ({ children }) => {
     return (
         <>
-            <Navbar color="green" />
+            <Navbar />
                 {children}
             <Footer />
         </>

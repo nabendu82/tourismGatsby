@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Navbar = ({ color }) => {
+const Navbar = () => {
     return (
-        <h1 style={{ backgroundColor: `${color}`}}>
+        <h1>
             Navbar Component
         </h1>
     )

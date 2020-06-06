@@ -1,13 +1,17 @@
 import React from "react"
 import Layout from "../components/Layout"
+import SimpleHero from "../components/SimpleHero"
+import Banner from "../components/Banner"
+import { Link } from "gatsby"
 
 export default function Home() {
   return (
-    <>
       <Layout>
-        <h2>Hello Gatsby!</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus neque ducimus provident officiis numquam autem eaque quae sunt totam qui?</p>
+        <SimpleHero>
+          <Banner title="Awesome Hampi" info="Come and explore Hampi, the city of ruins">
+            <Link to="/places" className="btn-white">explore places</Link>
+          </Banner>
+        </SimpleHero>
       </Layout>
-    </>
   )
 }

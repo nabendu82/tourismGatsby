@@ -20,7 +20,6 @@ const contact = ({ data }) => {
     return (
         <Layout>
             <StyledHero img={data.contactBcg.childImageSharp.fluid}>
-                Contact page
             </StyledHero>
             <Contact />
         </Layout>

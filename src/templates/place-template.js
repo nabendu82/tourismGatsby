@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
@@ -32,7 +32,7 @@ const Template = ({ data }) => {
                             <p>
                                 <FaTypo3 className={styles.icon} /> Timings - {timings}
                             </p>:
-                            <></>
+                            <Fragment></Fragment>
                         }
                     </div>
                     <p className={styles.desc}>{description}</p>
